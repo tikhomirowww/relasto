@@ -1,0 +1,7 @@
+configs/
+dist/
+utils/*
+coverage/
+
+.eslintrc.js
+jest.config.js

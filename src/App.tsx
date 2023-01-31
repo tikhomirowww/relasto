@@ -1,8 +1,10 @@
 import React from 'react';
+import Hero from './components/Hero/Hero'
 
 const App = (): JSX.Element => (
   <>
-    <h1>Property manager</h1>
+    <Hero />
+    {/* <h1>Property manager</h1> */}
   </>
 );
 

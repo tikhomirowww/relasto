@@ -1,3 +1,5 @@
+@import '../../styles/fonts';
+
 .hero_main {
   display: flex;
   justify-content: space-between;
@@ -25,6 +27,7 @@
   font-size: 46px;
   line-height: 64px;
   font-weight: 800;
+  font-family: Manrope ExtraBold;
 }
 
 .hero_left > p {
@@ -32,6 +35,7 @@
   font-weight: lighter;
   line-height: 36px;
   color: #636363;
+  font-family: Manrope Regular;
 }
 
 .hero_right svg {
@@ -57,16 +61,19 @@
   font-weight: 700;
   background-color: #dcdcdc;
   color: #1a1a1a;
+  font-family: Manrope Bold;
 }
 
 .info_mini_desc {
   color: #7b7b7b;
   font-size: 14px;
+  font-family: Manrope SemiBold;
 }
 
 .info_bold_desc {
   font-size: 18px;
   font-weight: 700;
+  font-family: Manrope Bold;
 }
 
 .hero_info_block {

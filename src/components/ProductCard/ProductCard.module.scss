@@ -1,0 +1,95 @@
+.itemProduct {
+  background: #FFF9F6;
+  border: 1px solid #EDD6C9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+
+  .featuredPropertiesBody {
+    flex: 1 1 auto;
+    padding: 30px 0px 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 180%;
+      color: #1A1A1A;
+    }
+
+    .rooms {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 23px;
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #636363;
+
+        svg {
+          width: 20px;
+        }
+      }
+    }
+
+    .forWhom {
+      display: flex;
+      align-items: center;
+      gap: 55px;
+      margin-bottom: 23px;
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #636363;
+
+        svg {
+          width: 20px;
+        }
+      }
+    }
+    .btnAndPrice {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      button {
+        padding: 16px 24px;
+        background: #1A1A1A;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        cursor: pointer;
+      }
+      strong {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 135%;
+        letter-spacing: -0.48px;
+        color: #1A1A1A;
+      }
+    }
+  }
+}

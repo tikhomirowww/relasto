@@ -5,7 +5,6 @@ const App: FC = () => (
   <>
     <h1>Property manager</h1>
     <NumberCount/>
-
   </>
 );
 

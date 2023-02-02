@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styles from './Hero.module.scss';
 import Home from '../../assets/icons/Home.svg';
 import Search from '../../assets/icons/Search.svg';
 
-const Hero = (): JSX.Element => {
+const Hero: FC = () => {
   return (
     <>
       <div className={styles.hero_main}>

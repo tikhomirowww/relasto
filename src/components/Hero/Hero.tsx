@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styles from './Hero.module.scss';
 import Home from '../../assets/icons/Home.svg';
-import Search from '../../assets/icons/Search.svg';
+import Glass from '../../assets/icons/Glass.svg';
 
 const Hero: FC = () => {
   return (
@@ -35,7 +35,7 @@ const Hero: FC = () => {
             </div>
             <div className={styles.hero_info_item}>
               <div className={styles.hero_info_search}>
-                <Search />
+                <Glass />
               </div>
             </div>
           </div>

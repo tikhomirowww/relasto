@@ -1,12 +1,11 @@
 import React, { FC } from 'react';
 import styles from './NumberCount.module.scss';
-import { INumberCountTypes } from './NumberCount.types';
-import NumberCountIconsMoney from '../../assets/icons/iconMoney.svg'
-import NumberCountIconsLocation from '../../assets/icons/iconLocation.svg'
-import NumberCountIconsFire from '../../assets/icons/iconFire.svg'
-import NumberCountIconsHappy from '../../assets/icons/iconHappy.svg'
+import NumberCountIconsMoney from '../../assets/icons/money.svg'
+import NumberCountIconsLocation from '../../assets/icons/location.svg'
+import NumberCountIconsFire from '../../assets/icons/fire.svg'
+import NumberCountIconsHappy from '../../assets/icons/happy.svg'
 
-const NumberCount: FC<INumberCountTypes> = () => {
+const NumberCount: FC = () => {
   return (
     <div className={styles.numberCountBlock}>
       <div className={styles.containers}>

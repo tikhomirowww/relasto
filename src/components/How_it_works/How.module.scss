@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+
+.how_main {
+  display: flex;
+  justify-content: center;
+}
+
+.how_left {
+  background-color: $dark_beige;
+}

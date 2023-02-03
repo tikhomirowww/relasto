@@ -14,7 +14,7 @@ const How_it_works: FC = () => {
             Simple & easy way to <br /> find your dream <br /> Appointment
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry.{' '}
+            Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry.
           </p>
           <button>Get Started</button>
         </div>

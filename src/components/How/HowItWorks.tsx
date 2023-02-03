@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
 import styles from './How.module.scss';
 import Search from '../../assets/icons/Search.svg';
-import Eye from '../../assets/icons/Eye.svg';
+import EyeIcon from '../../assets/icons/Eye.svg';
 import Wallet from '../../assets/icons/Wallet.svg';
 import Emoji from '../../assets/icons/Emoji.svg';
 
-const How_it_works: FC = () => {
+const HowItWorks: FC = () => {
   return (
     <div className={styles.how_main}>
       <div className={styles.how_main_content}>
@@ -26,7 +26,7 @@ const How_it_works: FC = () => {
             </h2>
           </div>
           <div className={styles.how_right_item}>
-            <Eye />
+            <EyeIcon />
             <h2>
               Visit <br /> Appointment
             </h2>
@@ -49,4 +49,4 @@ const How_it_works: FC = () => {
   );
 };
 
-export default How_it_works;
+export default HowItWorks;

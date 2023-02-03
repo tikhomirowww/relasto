@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styles from './How.module.scss';
-import Search from '../../assets/icons/Search.svg';
+import SearchIcon from '../../assets/icons/Search.svg';
 import EyeIcon from '../../assets/icons/Eye.svg';
-import Wallet from '../../assets/icons/Wallet.svg';
-import Emoji from '../../assets/icons/Emoji.svg';
+import WalletIcon from '../../assets/icons/Wallet.svg';
+import EmojiIcon from '../../assets/icons/Emoji.svg';
 
 const HowItWorks: FC = () => {
   return (
@@ -20,7 +20,7 @@ const HowItWorks: FC = () => {
         </div>
         <div className={styles.how_right}>
           <div className={styles.how_right_item}>
-            <Search />
+            <SearchIcon />
             <h2>
               Search <br /> your location
             </h2>
@@ -32,13 +32,13 @@ const HowItWorks: FC = () => {
             </h2>
           </div>
           <div className={styles.how_right_item}>
-            <Wallet />
+            <WalletIcon />
             <h2>
               Get your <br /> dream house
             </h2>
           </div>
           <div className={styles.how_right_item}>
-            <Emoji />
+            <EmojiIcon />
             <h2>
               Search your <br /> location
             </h2>

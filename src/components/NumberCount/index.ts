@@ -1,2 +1,1 @@
-import NumberCount from './NumberCount';
-export default NumberCount
+export {default} from './NumberCount'

@@ -1,3 +1,6 @@
+@import '../../styles/variables.scss';
+
+
 .featuredProperties {
   padding: 20px;
   &Container {
@@ -9,13 +12,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     h2 {
     font-weight: 800;
     font-size: 36px;
     line-height: 140%;
     letter-spacing: -0.72px;
-    color: #1A1A1A;
+    color: $btn_dark_grey;
     }
+
     a {
       display: flex;
       align-items: center;
@@ -23,11 +28,12 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 100%;
-      color: #FD650B;
+      color: $orange;
       transition: all .4s ease-in;
       &:hover {
         translate: 5px;
       }
+
       svg {
         width: 24px;
       }
@@ -42,7 +48,7 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 100%;
-      color: #C5C5C5;
+      color: $gray;
       cursor: pointer;
     }
   }
@@ -55,5 +61,5 @@
 }
 
 .activeFilter {
-  color: #1A1A1A !important;
+  color: $btn_dark_grey !important;
 }

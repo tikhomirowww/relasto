@@ -1,1 +1,2 @@
-export { default as FeaturedProperties } from './FeaturedProperties';
+import FeaturedProperties from './FeaturedProperties';
+export default FeaturedProperties;

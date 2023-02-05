@@ -1,0 +1,95 @@
+@import '../../styles/variables.scss';
+
+.hero_main {
+  display: flex;
+  justify-content: space-between;
+  background-color: $beige;
+  align-items: center;
+  height: 720px;
+}
+
+.hero_right {
+  display: flex;
+  justify-content: center;
+}
+
+.hero_left {
+  height: 370px;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -100px;
+  width: 50%;
+}
+
+.hero_left > h2 {
+  font-size: 46px;
+  line-height: 64px;
+  font-weight: 800;
+  font-family: Manrope ExtraBold;
+}
+
+.hero_left > p {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 36px;
+  color: $p_dark_grey;
+  font-family: Manrope Regular;
+}
+
+.hero_right svg {
+  width: 100%;
+}
+
+.hero_btns_block {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.hero_btn:first-child {
+  background-color: white;
+  color: $btn_light_grey;
+}
+
+.hero_btn {
+  padding: 16px 31px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: $btn_bg_grey;
+  color: $btn_dark_grey;
+  font-family: Manrope Bold;
+}
+
+.info_mini_desc {
+  color: $desc_light_grey;
+  font-size: 14px;
+  font-family: Manrope SemiBold;
+}
+
+.info_bold_desc {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Manrope Bold;
+}
+
+.hero_info_block {
+  background-color: $white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero_info_search {
+  background: $black;
+  padding: 20px;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+}

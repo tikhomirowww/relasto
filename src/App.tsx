@@ -1,5 +1,5 @@
 import React from 'react';
-import { FeaturedProperties } from './components/FeaturedProperties';
+import FeaturedProperties from './components/FeaturedProperties';
 
 const App = (): JSX.Element => (
   <>

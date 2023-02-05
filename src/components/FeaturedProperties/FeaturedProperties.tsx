@@ -1,12 +1,8 @@
 import React from 'react';
 import ArrowRight from '../../assets/icons/arrow-right.svg';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { ProductCard } from '../ProductCard';
 
-// Styles
 import styles from './FeaturedProperties.module.scss';
-
-// Moks
 
 const FeaturedProperties: React.FC = () => {
   return (

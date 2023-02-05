@@ -1,0 +1,65 @@
+@import '../../styles/variables.scss';
+
+
+.featuredProperties {
+  padding: 20px;
+  &Container {
+    max-width: 1200px;
+    margin: 0 auto 150px auto;
+  }
+
+  .featuredPropertiesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: -0.72px;
+    color: $btn_dark_grey;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      color: $orange;
+      transition: all .4s ease-in;
+      &:hover {
+        translate: 5px;
+      }
+
+      svg {
+        width: 24px;
+      }
+    }
+  }
+
+  .featuredPropertiesFilterBar {
+    display: flex;
+    gap: 30px;
+    margin: 23px 0 60px 0;
+    li {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      color: $gray;
+      cursor: pointer;
+    }
+  }
+
+  .featuredPropertiesItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    gap: 24px;
+  }
+}
+
+.activeFilter {
+  color: $btn_dark_grey !important;
+}

@@ -99,7 +99,7 @@ module.exports = {
   },
   output: {
     filename: '[name].[fullhash:8].bundle.js',
-    path: path.join(rootDir, 'dist'),
+    path: path.join(rootDir, 'build'),
     chunkFilename: '[name].[fullhash:8].bundle.js',
     publicPath: '/',
     clean: true,

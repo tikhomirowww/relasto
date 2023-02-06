@@ -4,7 +4,7 @@ import { ProductCard } from '../ProductCard';
 
 import styles from './FeaturedProperties.module.scss';
 
-const FeaturedProperties: React.FC = () => {
+const FeaturedProperties: React.FC = (): JSX.Element => {
   return (
     <section className={styles.featuredProperties}>
       <div className={styles.featuredPropertiesContainer}>

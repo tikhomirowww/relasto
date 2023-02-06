@@ -1,0 +1,139 @@
+@import '../../styles/variables.scss';
+
+.featureBlock {
+  padding: 150px 0 120px 0;
+  background-color:  $secondary_bg_color;
+
+  &Container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .featureBlockContent {
+      display: flex;
+      flex-direction: column;
+      gap: 200px;
+      &Top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &Left {
+          max-width: 455px;
+          width: 100%;
+          h3 {
+            max-width: 417px;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 140%;
+            letter-spacing: -0.72px;
+            color: $btn_dark_grey;
+
+          }
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            color: $dark_grey;
+            margin: 18px 0 58px 0;
+          }
+          button {
+            padding: 16px 24px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        &Right {
+          column-count: 2;
+          column-gap: 20px;
+          max-width: 588px;
+         img {
+          width: 100%;
+          border-radius: 10px;
+          &:nth-child(1) {
+            height: 327px;
+            margin-bottom: 16px;
+          }
+          &:nth-child(2) {
+            height: 218px;
+          }
+          &:nth-child(3) {
+            height: 218px;
+            margin-bottom: 16px;
+
+          }
+          &:nth-child(4) {
+            height: 327px;
+          }
+         }
+        }
+      }
+      &Bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &Left {
+          div {
+            width: 515px;
+            height: 595px;
+            background: $orange;
+            border-radius: 10px;
+            position: relative;
+
+            &::after {
+              content: '';
+              position: absolute;
+              width: 537px;
+              height: 589px;
+              top: -50px;
+              left: 50px;
+              border-radius: 10px;
+              background-image: url('https://images.unsplash.com/photo-1606974954169-b784af67bf18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+              background-size: cover;
+              background-position-x: center;
+            }
+          }
+        }
+        &Right {
+          h3 {
+            max-width: 417px;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 140%;
+            letter-spacing: -0.72px;
+            color: $btn_dark_grey;
+          }
+          p{
+            max-width: 455px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            margin: 19px 0;
+            color: $dark_grey;
+          }
+          ul {
+            margin-bottom: 60px;
+            li {
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 180%;
+              color: $btn_dark_grey;
+
+            svg {
+              width: 24px;
+            }
+            }
+          }
+          button {
+            padding: 16px 24px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+      }
+    }
+  }
+}

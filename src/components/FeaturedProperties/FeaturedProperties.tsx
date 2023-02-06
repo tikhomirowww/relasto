@@ -1,7 +1,7 @@
 import React from 'react';
+
 import ArrowRight from '../../assets/icons/arrow-right.svg';
 import { ProductCard } from '../ProductCard';
-
 import styles from './FeaturedProperties.module.scss';
 
 const FeaturedProperties: React.FC = () => {

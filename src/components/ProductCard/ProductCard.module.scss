@@ -1,0 +1,96 @@
+@import '../../styles/variables.scss';
+
+.itemProduct {
+  background: $secondary_bg_color;
+  border: 1px solid $border_card;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+  }
+
+  .featuredPropertiesBody {
+    flex: 1 1 auto;
+    padding: 30px 0px 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 180%;
+      color: $btn_dark_grey;
+    }
+
+    .rooms {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 23px;
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: $dark_grey;
+
+        svg {
+          width: 20px;
+        }
+      }
+    }
+
+    .forWhom {
+      display: flex;
+      align-items: center;
+      gap: 55px;
+      margin-bottom: 23px;
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: $dark_grey;
+
+        svg {
+          width: 20px;
+        }
+      }
+    }
+    .btnAndPrice {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      button {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+      padding: 16px 24px;
+      }
+      
+      strong {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 135%;
+        letter-spacing: -0.48px;
+        color: $btn_dark_grey;
+      }
+    }
+  }
+}
+

@@ -1,8 +1,9 @@
 import React, { FC} from 'react';
+import FeaturedProperties from './components/FeaturedProperties';
 
 const App: FC = () => (
   <>
-    <h1>Property manager</h1>
+    <FeaturedProperties />
   </>
 );
 

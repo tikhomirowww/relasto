@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styles from './NumberCount.module.scss';
-import NumberCountIconsMoney from '../../assets/icons/money.svg'
-import NumberCountIconsLocation from '../../assets/icons/location.svg'
-import NumberCountIconsFire from '../../assets/icons/fire.svg'
-import NumberCountIconsHappy from '../../assets/icons/happy.svg'
+import MoneyIcon from '../../assets/icons/money.svg'
+import LocationIcon from '../../assets/icons/location.svg'
+import FireIcon from '../../assets/icons/fire.svg'
+import HappyIcon from '../../assets/icons/happy.svg'
 
 const NumberCount: FC = () => {
   return (
@@ -12,7 +12,7 @@ const NumberCount: FC = () => {
         <div className={styles.numberCountBlockItem}>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <NumberCountIconsMoney/>
+              <MoneyIcon/>
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>$15.4M</h2>
@@ -21,7 +21,7 @@ const NumberCount: FC = () => {
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <NumberCountIconsLocation/>
+              <LocationIcon/>
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>25K+</h2>
@@ -30,7 +30,7 @@ const NumberCount: FC = () => {
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <NumberCountIconsFire/>
+              <FireIcon/>
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>500</h2>
@@ -39,7 +39,7 @@ const NumberCount: FC = () => {
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <NumberCountIconsHappy/>
+              <HappyIcon/>
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>600+</h2>

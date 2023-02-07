@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styles from '../Header/Header.module.scss';
 import LogoIcon from '../../assets/icons/logo.svg';
 import SearchIcon from '../../assets/icons/search-navbar.svg';
 import ArrowIcon from '../../assets/icons/arrow-down.svg';
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <div className={styles.header_main}>
       <div className={styles.logo_block}>

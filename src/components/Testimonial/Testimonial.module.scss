@@ -1,0 +1,103 @@
+@import '../../styles/variables.scss';
+
+.container {
+  display: flex;
+  max-width: 1050px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+
+.img {
+  padding: 20px 40px;
+}
+
+.img img {
+  object-fit: cover;
+  width: 384px;
+  height: 402px;
+}
+
+.slide_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.testimonial_info {
+  line-height: 14px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.testimonial_author {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.testimonial_position {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial_text {
+  font-size: 24px;
+  font-weight: 600;
+  color: $btn_light_grey;
+  width: 100%;
+  height: 260px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  position: absolute;
+  left: 45%;
+  top: 85%;
+  z-index: 1;
+}
+
+.prev,
+.next {
+  background: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: $btn_light_grey;
+}
+
+.prev:hover svg,
+.next:hover svg {
+  fill: $light_orange;
+}
+
+.prev:hover span,
+.next:hover span {
+  color: $light_orange;
+}
+
+.span {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.quotImage {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.testimonial_infoDiv {
+  width: 330px;
+}

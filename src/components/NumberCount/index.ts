@@ -1,1 +1,1 @@
-export {default} from './NumberCount'
+export { default } from './NumberCount';

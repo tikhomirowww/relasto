@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
+
+import FireIcon from '../../assets/icons/fire.svg';
+import HappyIcon from '../../assets/icons/happy.svg';
+import LocationIcon from '../../assets/icons/location.svg';
+import MoneyIcon from '../../assets/icons/money.svg';
 import styles from './NumberCount.module.scss';
-import MoneyIcon from '../../assets/icons/money.svg'
-import LocationIcon from '../../assets/icons/location.svg'
-import FireIcon from '../../assets/icons/fire.svg'
-import HappyIcon from '../../assets/icons/happy.svg'
 
 const NumberCount: FC = () => {
   return (
@@ -12,25 +13,30 @@ const NumberCount: FC = () => {
         <div className={styles.numberCountBlockItem}>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <MoneyIcon/>
+              <MoneyIcon />
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>$15.4M</h2>
-              <p className={styles.numberCountText}>Owned from <br/>Properties transactions</p>
+              <p className={styles.numberCountText}>
+                Owned from <br />
+                Properties transactions
+              </p>
             </div>
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <LocationIcon/>
+              <LocationIcon />
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>25K+</h2>
-              <p className={styles.numberCountText}>Properties for Buy <br/>& sell Successfully</p>
+              <p className={styles.numberCountText}>
+                Properties for Buy <br />& sell Successfully
+              </p>
             </div>
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <FireIcon/>
+              <FireIcon />
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>500</h2>
@@ -39,7 +45,7 @@ const NumberCount: FC = () => {
           </div>
           <div className={styles.numberCountBoxes}>
             <div className={styles.iconsBox}>
-              <HappyIcon/>
+              <HappyIcon />
             </div>
             <div className={styles.numberCountBoxItem}>
               <h2 className={styles.numberCount}>600+</h2>

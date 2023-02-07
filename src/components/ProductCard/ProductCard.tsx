@@ -11,15 +11,7 @@ import styles from './ProductCard.module.scss';
 import { House } from './ProductCard.types';
 
 
-const ProductCard: FC<House> = (props) => {
-  const { pictureHouse,
-    location,
-    bedRoom,
-    bathRoom,
-    quadrature,
-    type,
-    price} = props.product
- 
+const ProductCard: FC<House> = ({ product }) => {
   return (
     <article className={styles.itemProduct}>
       <img
@@ -29,29 +21,29 @@ const ProductCard: FC<House> = (props) => {
       <div className={styles.featuredPropertiesBody}>
         <h5>
           <LocationCardIcon />
-          {location}
+          {product.location}
         </h5>
         <div className={styles.rooms}>
           <span>
-            <BedRoomIcon />{bedRoom} Bed Room
+            <BedRoomIcon />{product.bedRoom} Bed Room
           </span>
           <span>
-            <BathRoomIcon />{bathRoom} Bath
+            <BathRoomIcon />{product.bathRoom} Bath
           </span>
         </div>
         <div className={styles.forWhom}>
           <span>
             <SquareIcon />
-            {quadrature} sqft
+            {product.quadrature} sqft
           </span>
           <span>
             <ForWhomIcon />
-            {type}
+            {product.type}
           </span>
         </div>
         <div className={styles.btnAndPrice}>
           <Button>View Details</Button>
-          <strong>${price}</strong>
+          <strong>${product.price}</strong>
         </div>
       </div>
     </article>

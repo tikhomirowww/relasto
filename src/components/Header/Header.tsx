@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../ui/Button';
 import styles from '../Header/Header.module.scss';
 import LogoIcon from '../../assets/icons/logo.svg';
@@ -8,9 +9,9 @@ import ArrowIcon from '../../assets/icons/arrow-down.svg';
 const Header: FC = () => {
   return (
     <div className={styles.header_main}>
-      <button className={styles.logo_btn}>
+      <Link to="/" className={styles.logo_btn}>
         <LogoIcon />
-      </button>
+      </Link>
       <div className={styles.nav_center}>
         <ul>
           <li className="nav_item">

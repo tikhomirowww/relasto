@@ -1,10 +1,8 @@
 import React from 'react';
 
-import FeaturedProperties from './components/FeaturedProperties';
-
 const App = (): JSX.Element => (
   <>
-    <FeaturedProperties />
+    <h1>Relasto</h1>
   </>
 );
 

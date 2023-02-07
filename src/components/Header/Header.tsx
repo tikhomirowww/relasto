@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import Button from '../../ui/Button';
 import styles from '../Header/Header.module.scss';
 import LogoIcon from '../../assets/icons/logo.svg';
 import SearchIcon from '../../assets/icons/search-navbar.svg';
@@ -33,7 +34,7 @@ const Header: FC = () => {
         <div className={styles.nav_search}>
           <SearchIcon />
         </div>
-        <div className={styles.login_nav_btn}>Login</div>
+        <Button>Login</Button>
       </div>
     </div>
   );

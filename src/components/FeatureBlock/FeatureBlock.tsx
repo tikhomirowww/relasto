@@ -4,7 +4,7 @@ import Button from '../../ui/Button';
 
 import styles from './FeatureBlock.module.scss';
 
-const FeatureBlock: FC = (): JSX.Element => {
+const FeatureBlock: FC = () => {
   return (
     <section className={styles.featureBlock}>
       <div className={styles.featureBlockContainer}>

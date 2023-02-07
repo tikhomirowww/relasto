@@ -8,8 +8,18 @@ import SquareIcon from '../../assets/icons/square.svg';
 
 
 import styles from './ProductCard.module.scss';
+import { House } from './ProductCard.types';
 
-const ProductCard: FC = () => {
+
+const ProductCard: FC<House> = (props) => {
+  const { pictureHouse,
+    location,
+    bedRoom,
+    bathRoom,
+    quadrature,
+    type,
+    price} = props.product
+ 
   return (
     <article className={styles.itemProduct}>
       <img
@@ -19,29 +29,29 @@ const ProductCard: FC = () => {
       <div className={styles.featuredPropertiesBody}>
         <h5>
           <LocationCardIcon />
-          2861 62nd Ave, Oakland, CA 94605
+          {location}
         </h5>
         <div className={styles.rooms}>
           <span>
-            <BedRoomIcon />3 Bed Room
+            <BedRoomIcon />{bedRoom} Bed Room
           </span>
           <span>
-            <BathRoomIcon />1 Bath
+            <BathRoomIcon />{bathRoom} Bath
           </span>
         </div>
         <div className={styles.forWhom}>
           <span>
             <SquareIcon />
-            1,032 sqft
+            {quadrature} sqft
           </span>
           <span>
             <ForWhomIcon />
-            Family
+            {type}
           </span>
         </div>
         <div className={styles.btnAndPrice}>
           <Button>View Details</Button>
-          <strong>$649,900</strong>
+          <strong>${price}</strong>
         </div>
       </div>
     </article>

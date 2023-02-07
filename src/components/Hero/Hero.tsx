@@ -1,9 +1,8 @@
 import React, { FC } from 'react';
+
 import Glass from '../../assets/icons/Glass.svg';
 import Home from '../../assets/icons/Home.svg';
-
 import styles from './Hero.module.scss';
-
 
 const Hero: FC = () => {
   return (

@@ -3,7 +3,7 @@ import FeaturedProperties from './components/FeaturedProperties';
 
 const App: FC = () => (
   <>
-    <FeaturedProperties />
+    <h1>Relasto</h1>
   </>
 );
 

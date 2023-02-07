@@ -4,10 +4,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: none;
   border-radius: 10px;
   cursor: pointer;
   background-color: $btn_dark_grey;
   color: $white;
+  border: 1px solid $btn_dark_grey;
+  transition: all .2s linear;
+
+
+  &:hover {
+    background-color: #fff !important;
+    color: $btn_dark_grey;
+  }
 }
 

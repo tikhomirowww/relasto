@@ -1,7 +1,8 @@
 import React from 'react';
 
-import ArrowRight from '../../assets/icons/arrow-right.svg';
-import { ProductCard } from '../ProductCard';
+import ArrowRightIcon from '../../assets/icons/arrow-right.svg';
+import { FeatureMockData } from '../../mocks/featuredPropertiesMock';
+import ProductCard from '../ProductCard';
 import styles from './FeaturedProperties.module.scss';
 
 const FeaturedProperties: React.FC = () => {
@@ -11,7 +12,7 @@ const FeaturedProperties: React.FC = () => {
         <div className={styles.featuredPropertiesTitle}>
           <h2>Featured Properties</h2>
           <a href="#">
-            Explore All <ArrowRight />
+            Explore All <ArrowRightIcon />
           </a>
         </div>
         <ul className={styles.featuredPropertiesFilterBar}>
@@ -21,13 +22,9 @@ const FeaturedProperties: React.FC = () => {
           <li>Agriculture Property</li>
         </ul>
         <div className={styles.featuredPropertiesItems}>
-          {/* Card */}
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          {FeatureMockData.map((house) => (
+            <ProductCard key={house._id} product={{ ...house }} />
+          ))}
         </div>
       </div>
     </section>

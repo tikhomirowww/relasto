@@ -7,9 +7,9 @@ import ArrowIcon from '../../assets/icons/arrow-down.svg';
 const Header: FC = () => {
   return (
     <div className={styles.header_main}>
-      <div className={styles.logo_block}>
+      <button className={styles.logo_btn}>
         <LogoIcon />
-      </div>
+      </button>
       <div className={styles.nav_center}>
         <ul>
           <li className="nav_item">

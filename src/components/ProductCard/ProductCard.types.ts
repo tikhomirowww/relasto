@@ -6,8 +6,8 @@ type ProductProps = {
   quadrature: string;
   type: string;
   price: string;
-}
+};
 
 export type House = {
-  product: ProductProps
-}
+  product: ProductProps;
+};

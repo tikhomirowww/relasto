@@ -1,15 +1,13 @@
 import React, { FC } from 'react';
-import Button  from '../../ui/Button';
+
 import BathRoomIcon from '../../assets/icons/bath-room.svg';
 import BedRoomIcon from '../../assets/icons/bed-room.svg';
 import LocationCardIcon from '../../assets/icons/card-location.svg';
 import ForWhomIcon from '../../assets/icons/for-whom.svg';
 import SquareIcon from '../../assets/icons/square.svg';
-
-
+import Button from '../../ui/Button';
 import styles from './ProductCard.module.scss';
 import { House } from './ProductCard.types';
-
 
 const ProductCard: FC<House> = ({ product }) => {
   return (
@@ -25,10 +23,12 @@ const ProductCard: FC<House> = ({ product }) => {
         </h5>
         <div className={styles.rooms}>
           <span>
-            <BedRoomIcon />{product.bedRoom} Bed Room
+            <BedRoomIcon />
+            {product.bedRoom} Bed Room
           </span>
           <span>
-            <BathRoomIcon />{product.bathRoom} Bath
+            <BathRoomIcon />
+            {product.bathRoom} Bath
           </span>
         </div>
         <div className={styles.forWhom}>

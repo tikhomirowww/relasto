@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
+
 import Button from '../../ui/Button';
-
-
 import styles from './FeatureBlock.module.scss';
 
 const FeatureBlock: FC = () => {

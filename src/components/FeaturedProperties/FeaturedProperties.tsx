@@ -1,6 +1,8 @@
 import React from 'react';
-import ArrowRight from '../../assets/icons/arrow-right.svg';
-import { ProductCard } from '../ProductCard';
+import { Link } from 'react-router-dom';
+import ProductCard  from '../ProductCard';
+import ArrowRightIcon from '../../assets/icons/arrow-right.svg';
+
 
 import styles from './FeaturedProperties.module.scss';
 
@@ -10,9 +12,9 @@ const FeaturedProperties: React.FC = (): JSX.Element => {
       <div className={styles.featuredPropertiesContainer}>
         <div className={styles.featuredPropertiesTitle}>
           <h2>Featured Properties</h2>
-          <a href="#">
-            Explore All <ArrowRight />
-          </a>
+          {/* <Link to="#">
+            Explore All <ArrowRightIcon />
+          </Link> */}
         </div>
         <ul className={styles.featuredPropertiesFilterBar}>
           <li className={styles.activeFilter}>Resident Property</li>
@@ -21,7 +23,6 @@ const FeaturedProperties: React.FC = (): JSX.Element => {
           <li>Agriculture Property</li>
         </ul>
         <div className={styles.featuredPropertiesItems}>
-          {/* Card */}
           <ProductCard />
           <ProductCard />
           <ProductCard />

@@ -1,1 +1,1 @@
-export { default as FeatureBlock } from './FeatureBlock';
+export { default } from './FeatureBlock';

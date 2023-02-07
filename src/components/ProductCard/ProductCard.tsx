@@ -1,14 +1,12 @@
 import React, { FC } from 'react';
-
-// Components
-import LocationCardIcon from '../../assets/icons/card-location.svg';
-import BedRoomIcon from '../../assets/icons/bed-room.svg';
+import Button  from '../../ui/Button';
 import BathRoomIcon from '../../assets/icons/bath-room.svg';
+import BedRoomIcon from '../../assets/icons/bed-room.svg';
+import LocationCardIcon from '../../assets/icons/card-location.svg';
 import ForWhomIcon from '../../assets/icons/for-whom.svg';
 import SquareIcon from '../../assets/icons/square.svg';
-import { Button } from '../../ui/Button';
 
-// Style
+
 import styles from './ProductCard.module.scss';
 
 const ProductCard: FC = () => {

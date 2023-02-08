@@ -1,6 +1,3 @@
-@import '../../styles/variables.scss';
-
-
 .featuredProperties {
   padding: 20px;
   &Container {
@@ -18,7 +15,7 @@
     font-size: 36px;
     line-height: 140%;
     letter-spacing: -0.72px;
-    color: $btn_dark_grey;
+    color: var(--color-black);
     }
 
     a {
@@ -28,7 +25,7 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 100%;
-      color: $orange;
+      color: var(--color-blaze-orange);
       transition: all .4s ease-in;
       &:hover {
         translate: 5px;
@@ -48,7 +45,7 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 100%;
-      color: $gray;
+      color: var(--color-silver);
       cursor: pointer;
     }
   }
@@ -61,5 +58,5 @@
 }
 
 .activeFilter {
-  color: $btn_dark_grey !important;
+  color: var(--color-black) !important;
 }

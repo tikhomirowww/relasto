@@ -1,9 +1,7 @@
-@import "../../styles/variables";
-
 .numberCountBlock {
   max-width: 1440px;
   height: 318px;
-  background-color: $lightBeige;
+  background-color: var(--color-soapstone);
 }
 .containers {
   padding: 0 15px;
@@ -22,7 +20,7 @@
 .iconsBox {
   width: 60px;
   height: 60px;
-  background-color:$wight;
+  background-color: var(--color-white);
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -33,12 +31,12 @@
   font-size: 46px;
   line-height: 64.4px;
   letter-spacing: -0.92px;
-  color: $black;
+  color: var(--color-black);
   margin-bottom: 13px;
 }
 .numberCountText {
   font-size: 20px;
-  color: $lightBlue;
+  color: var(--color-bismark);
   line-height: 28px;
   letter-spacing: -0.4px;
 }

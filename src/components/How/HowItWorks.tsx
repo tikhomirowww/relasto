@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
-import styles from './HowItWorks.module.scss';
-import SearchIcon from '../../assets/icons/Search.svg';
-import EyeIcon from '../../assets/icons/Eye.svg';
-import WalletIcon from '../../assets/icons/Wallet.svg';
+
 import EmojiIcon from '../../assets/icons/Emoji.svg';
+import EyeIcon from '../../assets/icons/Eye.svg';
+import SearchIcon from '../../assets/icons/Search.svg';
+import WalletIcon from '../../assets/icons/Wallet.svg';
+import styles from './HowItWorks.module.scss';
 
 const HowItWorks: FC = () => {
   return (

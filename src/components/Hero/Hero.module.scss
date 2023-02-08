@@ -1,9 +1,7 @@
-@import '../../styles/variables.scss';
-
 .hero_main {
   display: flex;
   justify-content: space-between;
-  background-color: $beige;
+  background-color: var(--color-seashell-peach);
   align-items: center;
   height: 720px;
 }
@@ -34,7 +32,7 @@
   font-size: 20px;
   font-weight: lighter;
   line-height: 36px;
-  color: $p_dark_grey;
+  color: var(--color-dove-gray);
   font-family: Manrope Regular;
 }
 
@@ -49,8 +47,8 @@
 }
 
 .hero_btn:first-child {
-  background-color: white;
-  color: $btn_light_grey;
+  background-color: var(--color-white);
+  color: var(--color-dove-gray2);
 }
 
 .hero_btn {
@@ -59,13 +57,13 @@
   border: none;
   font-size: 18px;
   font-weight: 700;
-  background-color: $btn_bg_grey;
-  color: $btn_dark_grey;
+  background-color: var(--color-alto2);
+  color: var(--color-black);
   font-family: Manrope Bold;
 }
 
 .info_mini_desc {
-  color: $desc_light_grey;
+  color: var(--color-boulder);
   font-size: 14px;
   font-family: Manrope SemiBold;
 }
@@ -77,7 +75,7 @@
 }
 
 .hero_info_block {
-  background-color: $white;
+  background-color: var(--color-white);
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -87,7 +85,7 @@
 }
 
 .hero_info_search {
-  background: $black;
+  background: var(--color-black);
   padding: 20px;
   border-radius: 15px;
   width: 30px;

@@ -1,8 +1,6 @@
-@import '../../styles/variables.scss';
-
 .featureBlock {
   padding: 150px 0 120px 0;
-  background-color:  $secondary_bg_color;
+  background-color:  var(--color-soapstone);
 
   &Container {
     max-width: 1200px;
@@ -25,14 +23,15 @@
             font-size: 36px;
             line-height: 140%;
             letter-spacing: -0.72px;
-            color: $btn_dark_grey;
+            color: var(--color-black);
+
 
           }
           p {
             font-weight: 400;
             font-size: 18px;
             line-height: 180%;
-            color: $dark_grey;
+            color: var(--color-dove-gray);
             margin: 18px 0 58px 0;
           }
           button {
@@ -75,7 +74,7 @@
           div {
             width: 515px;
             height: 595px;
-            background: $orange;
+            background: var(--color-blaze-orange);
             border-radius: 10px;
             position: relative;
 
@@ -100,7 +99,7 @@
             font-size: 36px;
             line-height: 140%;
             letter-spacing: -0.72px;
-            color: $btn_dark_grey;
+            color: var(--color-black);
           }
           p{
             max-width: 455px;
@@ -108,7 +107,7 @@
             font-size: 18px;
             line-height: 180%;
             margin: 19px 0;
-            color: $dark_grey;
+            color: var(--color-dove-gray);
           }
           ul {
             margin-bottom: 60px;
@@ -119,7 +118,7 @@
               font-weight: 600;
               font-size: 18px;
               line-height: 180%;
-              color: $btn_dark_grey;
+              color: var(--color-black);
 
             svg {
               width: 24px;

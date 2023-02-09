@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 
+
 import { testimonials } from '../src/mocks/testimonialsMock';
 import FeaturedProperties from './components/FeaturedProperties';
 import Testimonial from './components/Testimonial';

@@ -5,7 +5,7 @@ import styles from './FeatureBlock.module.scss';
 
 const FeatureBlock: FC = () => {
   return (
-    <section className={styles.featureBlock}>
+    <section className={styles.featureBlock} id="feature-block">
       <div className={styles.featureBlockContainer}>
         <div className={styles.featureBlockContent}>
           <div className={styles.featureBlockContentTop}>

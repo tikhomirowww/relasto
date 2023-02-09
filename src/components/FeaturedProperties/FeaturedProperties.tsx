@@ -7,7 +7,7 @@ import styles from './FeaturedProperties.module.scss';
 
 const FeaturedProperties: React.FC = () => {
   return (
-    <section className={styles.featuredProperties}>
+    <section className={styles.featuredProperties} id="feature-properties">
       <div className={styles.featuredPropertiesContainer}>
         <div className={styles.featuredPropertiesTitle}>
           <h2>Featured Properties</h2>

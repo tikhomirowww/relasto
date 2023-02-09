@@ -1,0 +1,46 @@
+.section_ourachievement {
+  background-color: var(--color-soapstone);
+  .container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    .ourachievement_block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+      .ourachievement_block_item {
+        max-width: 220px;
+        min-height: 212px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .ourachievement_block_icon {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          background-color: var(--color-white);
+          box-shadow: 0 10px 11px 1px rgba(21, 21, 21, 0.2);
+        }
+        svg {}
+        span {
+          font-weight: 800;
+          font-size: 46px;
+          line-height: 140%;
+          letter-spacing: -0.92px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 140%;
+          letter-spacing: -0.4px;
+          color: var(--color-bismark);
+        }
+      }
+    }
+  }
+}

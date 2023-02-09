@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box !important;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,6 +23,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 body {
 	line-height: 1;
+  color: var(--color-black);
 }
 ol, ul {
 	list-style: none;
@@ -30,6 +35,16 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+}
+
+a {
+  color: inherit;
+  transition: .4s;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100% ;
 }
 
 /* remember to define focus styles! */

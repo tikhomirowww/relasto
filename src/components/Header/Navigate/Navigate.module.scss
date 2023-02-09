@@ -1,0 +1,24 @@
+.nav_main_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 80px;
+  
+  li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--color-black);
+    &:hover {
+      color: var(--color-blaze-orange);
+    }
+    }
+  }
+}
+
+
+

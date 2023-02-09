@@ -1,43 +1,37 @@
 import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { IoMdSearch } from 'react-icons/io';
+
+// import { Link } from 'react-router-dom';
+import LogoIcon from '../../assets/icons/logo.svg';
 import Button from '../../ui/Button';
 import styles from '../Header/Header.module.scss';
-import LogoIcon from '../../assets/icons/logo.svg';
-import SearchIcon from '../../assets/icons/search-navbar.svg';
-import ArrowIcon from '../../assets/icons/arrow-down.svg';
+import Navigate from './Navigate';
 
 const Header: FC = () => {
   return (
-    <div className={styles.header_main}>
-      <Link to="/" className={styles.logo_btn}>
-        <LogoIcon />
-      </Link>
-      <div className={styles.nav_center}>
-        <ul>
-          <li className="nav_item">
-            Home &nbsp;
-            <ArrowIcon />
-          </li>
-          <li className="nav_item">About</li>
-          <li className="nav_item">
-            Listing &nbsp;
-            <ArrowIcon />
-          </li>
-          <li className="nav_item">
-            Agents &nbsp;
-            <ArrowIcon />
-          </li>
-          <li className="nav_item">Property</li>
-          <li className="nav_item">Blog</li>
-        </ul>
-      </div>
-      <div className={styles.nav_right}>
-        <div className={styles.nav_search}>
-          <SearchIcon />
+    <header className={styles.section_header} id="header">
+      <div className={styles.container}>
+        <div className={styles.header_section}>
+          <div className={styles.header_logo}>
+            <a href="/">
+              <LogoIcon />
+            </a>
+          </div>
+          <nav className={styles.nav}>
+            <Navigate />
+          </nav>
+          <div className={styles.header_right_container}>
+            <a href="/search">
+              <IoMdSearch width={17} height={17} />
+              Search
+            </a>
+            <Button>
+              <a href="/sign-in">Log in</a>
+            </Button>
+          </div>
         </div>
-        <Button>Login</Button>
       </div>
-    </div>
+    </header>
   );
 };
 

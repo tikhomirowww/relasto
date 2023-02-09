@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
 
-export type LayoutPros = {
+export type LayoutProps = {
   children?: ReactNode;
 };

@@ -4,9 +4,9 @@ import { Outlet } from 'react-router-dom';
 import Header from '../../src/components/Header';
 import Footer from '../components/Footer';
 import styles from './Layout.module.scss';
-import { LayoutPros } from './Layout.types';
+import { LayoutProps } from './Layout.types';
 
-const Layout: React.FC<LayoutPros> = () => {
+const Layout: React.FC<LayoutProps> = () => {
   return (
     <main className={styles.main}>
       <Header />

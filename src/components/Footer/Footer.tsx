@@ -1,8 +1,9 @@
 import React from 'react';
-import LogoIcon from '../../assets/icons/logo.svg';
-import InstagramIcon from '../../assets/icons/instragram.svg';
+
 import FacebookIcon from '../../assets/icons/facebook.svg';
+import InstagramIcon from '../../assets/icons/instragram.svg';
 import LinkedinIcon from '../../assets/icons/linkedin.svg';
+import LogoIcon from '../../assets/icons/logo.svg';
 import TwitterIcon from '../../assets/icons/twitter.svg';
 import YoutubeIcon from '../../assets/icons/youtube.svg';
 import styles from './Footer.module.scss';

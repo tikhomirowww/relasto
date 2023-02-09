@@ -4,8 +4,6 @@ import { CiLocationOn } from 'react-icons/ci';
 import { IoMdSearch } from 'react-icons/io';
 import { TbSelector } from 'react-icons/tb';
 
-// import Glass from '../../assets/icons/Glass.svg';
-// import Home from '../../assets/icons/Home.svg';
 import styles from './Hero.module.scss';
 
 const Hero: FC = () => {

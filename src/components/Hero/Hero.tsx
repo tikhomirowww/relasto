@@ -1,49 +1,66 @@
-import React, { FC } from 'react';
+import cn from 'classnames';
+import React, { FC, useState } from 'react';
+import { CiLocationOn } from 'react-icons/ci';
+import { IoMdSearch } from 'react-icons/io';
+import { TbSelector } from 'react-icons/tb';
 
-import Glass from '../../assets/icons/Glass.svg';
-import Home from '../../assets/icons/Home.svg';
 import styles from './Hero.module.scss';
 
 const Hero: FC = () => {
+  const options = ['Buy', 'Sell', 'Rent'];
+  const [variant, setVariant] = useState('Buy');
   return (
-    <div className={styles.hero_main}>
-      <div className={styles.hero_left}>
-        <h2>
-          Find a perfect property <br /> Where you'll love to live
-        </h2>
-        <p>
-          We helps businesses customize, automate and scale up <br /> their ad production and
-          delivery.
-        </p>
-        <div className={styles.hero_btns_block}>
-          <button className={styles.hero_btn}>Buy</button>
-          <button className={styles.hero_btn}>Sell</button>
-          <button className={styles.hero_btn}>Rent</button>
-        </div>
-        <div className={styles.hero_info_block}>
-          <div className={styles.hero_info_item}>
-            <div className={styles.info_mini_desc}>City/Street</div>
-            <div className={styles.info_bold_desc}>New York City</div>
-          </div>
-          <div className={styles.hero_info_item}>
-            <div className={styles.info_mini_desc}>Property Type</div>
-            <div className={styles.info_bold_desc}>Duplex House</div>
-          </div>
-          <div className={styles.hero_info_item}>
-            <div className={styles.info_mini_desc}>Property Type</div>
-            <div className={styles.info_bold_desc}>$15000 - $350000</div>
-          </div>
-          <div className={styles.hero_info_item}>
-            <div className={styles.hero_info_search}>
-              <Glass />
+    <article className={styles.section_hero} id="banner-section">
+      <div className={styles.container}>
+        <div className={styles.banner}>
+          <h2 className={styles.banner_title}>Find a perfect property Where you'll love to live</h2>
+          <p className={styles.banner_description}>
+            We helps businesses customize, automate and scale up their ad production and delivery.
+          </p>
+          <div className={styles.banner_settings}>
+            <ul className={styles.banner_variant}>
+              {options.map((option) => (
+                <li
+                  onClick={() => setVariant(option)}
+                  className={cn({
+                    [styles.active]: variant === option,
+                  })}
+                  key={option}
+                >
+                  {option}
+                </li>
+              ))}
+            </ul>
+            <div className={styles.banner_filter}>
+              <div className={styles.filter_option}>
+                <div>
+                  <span>City/Street</span>
+                  <p>
+                    New York City <CiLocationOn />
+                  </p>
+                </div>
+                <div>
+                  <span>Property Type</span>
+                  <p>
+                    Duplex House <TbSelector />
+                  </p>
+                </div>
+                <div>
+                  <span>Price</span>
+                  <p>
+                    $15000 - $350000 <TbSelector />
+                  </p>
+                </div>
+              </div>
+              <div className={styles.option_search}>
+                <IoMdSearch />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.hero_right}>
-        <Home />
-      </div>
-    </div>
+      <div className={styles.banner__img}></div>
+    </article>
   );
 };
 

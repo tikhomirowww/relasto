@@ -1,0 +1,21 @@
+.selectInput {
+  width: 100%;
+  height: 60px;
+  border-color: var(--color-alto);
+  background-color: var(--color-white);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  div{
+    color: var(--color-dove-gray);
+    cursor: pointer;
+  }
+  span {
+    display: none;
+  }
+  svg {
+    color: var(--color-dove-gray);
+    width: 24px;
+    height: 24px;
+  }
+}

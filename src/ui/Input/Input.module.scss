@@ -1,0 +1,46 @@
+.input_main {
+  position: relative;
+  height: 60px;
+}
+
+.input {
+  height: 100%;
+  font-size: 18px;
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid var(--color-alto);
+  padding: 0 20px;
+}
+
+.prefix_input_icon svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 16px;
+}
+
+.postfix_input_icon svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 16px;
+}
+
+.input_both {
+  padding: 0 40px;
+}
+
+.input_prefix {
+  padding-left: 56px;
+}
+
+.input_postfix {
+  padding-right: 56px;
+}

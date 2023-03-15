@@ -1,0 +1,27 @@
+.main {
+  padding: 60px 0 120px;
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+}
+.search {
+  display: flex;
+  padding: 23px 0 40px;
+}
+.select {
+  margin: 0 16px;
+  width: 135px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+.pagination {
+  margin: 80px auto 0;
+}
+

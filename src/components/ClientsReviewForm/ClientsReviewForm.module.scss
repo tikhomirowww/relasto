@@ -1,0 +1,36 @@
+.clientsReviewForm {
+  background: var(--color-white);
+  border: 1px solid var( --color-alto);
+  border-radius: 10px;
+  padding: 0 0 40px;
+  margin-bottom: 80px;
+  &Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var( --color-alto);
+    padding: 30px 40px 22px 40px;
+    margin-bottom: 40px;
+    h2 {
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 135%;
+      letter-spacing: -0.56px;
+      color: var(--color-black);
+    }
+    button {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      gap: 13px;
+    }
+  }
+  &Main {
+    padding: 0 50px;
+    button {
+      margin-top: 50px !important;
+      gap: 7px;
+      align-items: center;
+    }
+  }
+}

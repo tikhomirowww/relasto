@@ -1,0 +1,65 @@
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 5px 10px;
+}
+
+.form {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.right div,
+.left div {
+  margin-top: 10px;
+}
+.checkbox {
+  width: 96%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.checkbox a {
+  margin-left: 3px;
+}
+.buttons button {
+  margin-top: 30px;
+  width: 620px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 60px;
+}
+.outlined {
+  border: 1px solid var(--color-dove-gray2);
+}
+.login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-dove-gray2);
+}
+.login span {
+  color: var(--color-black);
+  cursor: pointer;
+}
+.google {
+  margin-right: 20px;
+}
+.line {
+  width: 620px;
+  margin: 30px auto;
+  height: 1px;
+  border-top: 1px solid var(--color-alto);
+}

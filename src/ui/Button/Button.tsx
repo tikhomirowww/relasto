@@ -1,11 +1,12 @@
+import classNames from 'classnames';
 import React, { FC } from 'react';
 
 import styles from './Button.module.scss';
 import { ButtonProps } from './Button.types';
 
-const Button: FC<ButtonProps> = ({ children, ...props }) => {
+const Button: FC<ButtonProps> = ({ className, children, variant = 'filled', ...props }) => {
   return (
-    <button {...props} className={styles.button}>
+    <button {...props} className={classNames(styles.button, styles[variant], className)}>
       {children}
     </button>
   );

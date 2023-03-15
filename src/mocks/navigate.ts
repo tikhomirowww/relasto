@@ -21,7 +21,7 @@ export const navigate = [
     _id: 4,
     name: 'Agents',
     path: '/agents',
-    select: true,
+    select: false,
   },
   {
     _id: 5,

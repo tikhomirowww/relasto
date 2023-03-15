@@ -1,0 +1,74 @@
+.agentInfo_main {
+  background: var(--color-white);
+  padding: 40px;
+  width: 62%;
+  height: 292px;
+  border: 1px solid var(--color-alto);
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+  }
+}
+
+.agentInfo_block {
+  margin-top: 26px;
+  display: flex;
+  img {
+    margin-right: 24px;
+    border-radius: 10px;
+  }
+}
+
+.agentInfo_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+}
+
+.agentInfo_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.rating {
+  height: 30px;
+}
+
+.agentInfo_contacts_mail {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--color-dove-gray2);
+
+  svg {
+    width: 20px;
+    margin-right: 10px;
+  }
+}
+
+.agentInfo_contacts_number {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--color-dove-gray2);
+
+  svg {
+    width: 20px;
+    margin-right: 10px;
+  }
+}

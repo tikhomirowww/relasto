@@ -1,0 +1,92 @@
+export const agentMockData = [
+  {
+    id: 1,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 4,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 5,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 6,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 7,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 8,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 9,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 10,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 11,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 12,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 13,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 14,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+  {
+    id: 15,
+    image: 'https://i.ibb.co/mJtm6bx/Rectangle-5615.png',
+    name: 'Bruno Fernandes',
+    rating: 4.5,
+  },
+];

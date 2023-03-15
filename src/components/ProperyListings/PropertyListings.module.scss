@@ -1,0 +1,27 @@
+.listings_main {
+  margin: 60px 0 120px;
+}
+
+.featuredPropertiesBody {
+  background: var(--color-white);
+}
+
+.property_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 800;
+  }
+}
+
+.listing_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  > article {
+    width: 30%;
+  }
+}

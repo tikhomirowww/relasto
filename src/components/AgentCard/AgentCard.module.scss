@@ -1,0 +1,25 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    height: 282px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+}
+.agentBody {
+  padding: 14px 0 20px 20px;
+  border: 1px solid #D7D7D7;
+  border-radius: 0 0 10px 10px;
+  height: 155px;
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+}
+.btn {
+  margin-top: 22px;
+}

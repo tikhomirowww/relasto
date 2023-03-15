@@ -1,0 +1,40 @@
+.notFoundPage {
+  background-color: var(--color-soapstone);
+  padding: 116px 0 196px;
+}
+.notFoundBox {
+  max-width: 464.3px;
+  margin: 0 auto;
+  text-align: center;
+}
+.errorImg {
+  margin-bottom: 30px;
+}
+.notFoundTitle {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 37.8px;
+  letter-spacing: -0.56px;
+  color: var(--color-black);
+  margin-bottom: 24px;
+}
+.notFoundBtn {
+  background-color: transparent;
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0 auto;
+  &:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    svg * {
+      stroke: var(--color-white);
+      fill: var(--color-white);
+    }
+  }
+}
+.rightArrow {
+  width: 15px;
+  margin-left: 18.33px;
+}

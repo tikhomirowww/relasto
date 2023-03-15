@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BlogAndSubscribe from '../..//components/BlogAndSubscribe/BlogAndSubscribe';
+import BlogAndSubscribe from '../../components/BlogAndSubscribe/BlogAndSubscribe';
 import FeatureBlock from '../../components/FeatureBlock';
 import FeaturedProperties from '../../components/FeaturedProperties';
 import Hero from '../../components/Hero';

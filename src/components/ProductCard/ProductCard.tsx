@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import classNames from 'classnames';
 
 import BathRoomIcon from '../../assets/icons/bath-room.svg';
 import BedRoomIcon from '../../assets/icons/bed-room.svg';
@@ -9,14 +10,13 @@ import Button from '../../ui/Button';
 import styles from './ProductCard.module.scss';
 import { House } from './ProductCard.types';
 
-const ProductCard: FC<House> = ({ product }) => {
+const ProductCard: FC<House> = ({ product, variant = 'transparent' }) => {
+  const combinedClassName = classNames(styles.featuredPropertiesBody, styles[variant]);
+
   return (
     <article className={styles.itemProduct}>
-      <img
-        src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2375&q=80"
-        alt="Product"
-      />
-      <div className={styles.featuredPropertiesBody}>
+      <img src={product.pictureHouse} alt="Product" />
+      <div className={combinedClassName}>
         <h5>
           <LocationCardIcon />
           {product.location}

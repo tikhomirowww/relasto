@@ -2,3 +2,7 @@
 @use 'reset.scss';
 @use 'variables.scss';
 @use 'swiper/scss';
+
+* {
+  box-sizing: border-box !important;
+}

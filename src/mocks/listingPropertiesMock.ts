@@ -1,0 +1,32 @@
+export const propertyListingsMock = [
+  {
+    _id: 1,
+    pictureHouse: 'https://i.ibb.co/vc38RVm/image.png',
+    location: '2861 62nd Ave, Oakland, CA 94605',
+    bedRoom: '3',
+    bathRoom: '1',
+    quadrature: '1,032',
+    type: 'Family',
+    price: '649,900',
+  },
+  {
+    _id: 2,
+    pictureHouse: 'https://i.ibb.co/2vFzBt7/image-1.png',
+    location: '2861 62nd Ave, Oakland, CA 94605',
+    bedRoom: '3',
+    bathRoom: '1',
+    quadrature: '1,032',
+    type: 'Family',
+    price: '649,900',
+  },
+  {
+    _id: 3,
+    pictureHouse: 'https://i.ibb.co/YBxr8sj/image-2.png',
+    location: '2861 62nd Ave, Oakland, CA 94605',
+    bedRoom: '3',
+    bathRoom: '1',
+    quadrature: '1,032',
+    type: 'Family',
+    price: '649,900',
+  },
+];

@@ -1,0 +1,20 @@
+.tag_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--color-alto3);
+  background-color: var(--color-soapstone);
+  padding: 7px 14px;
+  border-radius: 10px;
+  color: var(--color-black);
+  width: fit-content;
+  padding-right: 12px;
+}
+
+.tag_text {
+  margin-right: 8px;
+}
+
+.tag_icon {
+  cursor: pointer;
+}

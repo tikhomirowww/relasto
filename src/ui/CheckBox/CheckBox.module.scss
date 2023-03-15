@@ -1,0 +1,19 @@
+.label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+.input {
+  display: none;
+}
+.input + .divDisplay {
+  width: 18px;
+  height: 18px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.input:checked + .divDisplay {
+  background-size: cover;
+  background-image: url('https://png.pngtree.com/element_our/sm/20180515/sm_5afb099b30a2a.jpg');
+}

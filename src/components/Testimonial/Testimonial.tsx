@@ -2,8 +2,8 @@ import React, { FC, useRef } from 'react';
 import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import LeftArrowIcon from './../../assets/Icons/ArrowLeft.svg';
-import RightArrowIcon from './../../assets/Icons/ArrowRight.svg';
+import LeftArrowIcon from '../../assets/icons/ArrowLeft.svg';
+import RightArrowIcon from '../../assets/icons/ArrowRight.svg';
 import styles from './Testimonial.module.scss';
 import { TestimonialsProps } from './Testimonial.types';
 

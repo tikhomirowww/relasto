@@ -10,4 +10,5 @@ type ProductProps = {
 
 export type House = {
   product: ProductProps;
+  variant?: 'transparent' | 'light';
 };

@@ -1,0 +1,131 @@
+.agentProfileCard {
+  margin: 100px auto 124px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 50px 70px 60px 40px;
+  background: var(--color-white);
+  border: 1px solid var(--color-alto);
+  border-radius: 10px;
+  .leftSection {
+    border-right: 1px solid var(--color-alto);
+    padding-right: 80px;
+    &Top {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+        img {
+          width: 182px;
+          height: 182px;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      .sectionTopRight {
+        .topRight {
+          margin-bottom: 12px;
+          h4 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 135%;
+          letter-spacing: -0.48px;
+          color: var(--color-black);
+          margin-bottom: 7px;
+          }
+        }
+      }
+      .topRightContacts {
+        display: flex;
+        flex-direction: column;
+        span {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 180%;
+          color: var(--color-black);
+        }
+      }
+    }
+    p {
+      max-width: 589px;
+      margin: 21px 0 75px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 180%;
+      color: var(--color-dove-gray2);
+    }
+  }
+  .rightSection {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    section {
+      h4 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+      letter-spacing: -0.4px;
+      margin-bottom: 4px;
+      color: var(--color-black);
+      }
+      span {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 180%;
+        color: var(--color-dove-gray2);
+      }
+    }
+    .rightSectionLicense {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      div {
+        h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: -0.4px;
+        margin-bottom: 4px;
+        color: var(--color-black);
+        }
+        span {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 180%;
+          color: var(--color-dove-gray2);
+        }
+        a {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 180%;
+          text-decoration: underline;
+          color: var(--color-dove-gray2);
+        }
+      }
+    }
+    .rightSectionSocial {
+      h4 {
+        margin-bottom: 13px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        a {
+          svg {
+            transition: all .6s linear;
+            color: #6E6E6E;
+            font-size: 30px;
+            &:hover {
+              color: var(--color-black) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

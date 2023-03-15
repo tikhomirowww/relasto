@@ -4,5 +4,6 @@ export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 > & {
+  variant?: 'outlined' | 'filled';
   children: ReactNode;
 };

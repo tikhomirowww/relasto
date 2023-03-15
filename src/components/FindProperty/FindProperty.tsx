@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 
-import SerachIcon from '../../assets/Icons/search-grey.svg';
+import SerachIcon from '../../assets/icons/search-grey.svg';
 import { FeatureMockData } from '../../mocks/featuredPropertiesMock';
 import Button from '../../ui/Button';
 import Input from '../../ui/Input';

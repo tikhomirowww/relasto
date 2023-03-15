@@ -9449,11 +9449,6 @@ wildcard@^2.0.0:
   resolved "https://registry.yarnpkg.com/wildcard/-/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
   integrity sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==
 
-with-router@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/with-router/-/with-router-1.0.1.tgz#1dc30d469c871d77561d080254d8b5356313349c"
-  integrity sha512-Jc/rG+uhJ9iqRWJjQAB9kKQiwk+L35p9OsXqDJU/n/BoFEsgEQLcXzYZ/MS4jsnXsjYs07C/hQhsSZSUir85NA==
-
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"

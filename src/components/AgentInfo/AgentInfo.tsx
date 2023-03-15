@@ -1,7 +1,8 @@
 import React from 'react';
+
+import MailIcon from '../../assets/icons/email.svg';
+import PhoneIcon from '../../assets/icons/phone.svg';
 import styles from './AgentInfo.module.scss';
-import MailIcon from '../../assets/Icons/email.svg';
-import PhoneIcon from '../../assets/Icons/phone.svg';
 
 const AgentInfo = () => {
   return (

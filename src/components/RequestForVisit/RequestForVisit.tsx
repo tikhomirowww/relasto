@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+
+import CalendarIcon from '../../assets/icons/calendar.svg';
+import EmailIcon from '../../assets/icons/email.svg';
+import PhoneIcon from '../../assets/icons/phone.svg';
+import UserIcon from '../../assets/icons/user.svg';
+import Button from '../../ui/Button';
 import Input from '../../ui/Input';
 import styles from './RequestForVisit.module.scss';
-import UserIcon from '../../assets/Icons/user.svg';
-import EmailIcon from '../../assets/Icons/email.svg';
-import PhoneIcon from '../../assets/Icons/phone.svg';
-import CalendarIcon from '../../assets/icons/calendar.svg';
-import Button from '../../ui/Button';
 
 const RequestForVisit = () => {
   const [name, setName] = useState('');

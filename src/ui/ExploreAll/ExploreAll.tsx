@@ -1,5 +1,6 @@
 import React from 'react';
-import ArrowRightIcon from '../../assets/Icons/ArrowRight.svg';
+
+import ArrowRightIcon from '../../assets/icons/ArrowRight.svg';
 import styles from './ExploreAll.module.scss';
 
 const ExploreAll = () => {

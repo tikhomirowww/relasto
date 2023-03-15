@@ -1,11 +1,11 @@
-import React, { FC, useState, useEffect } from 'react';
-import { GalleryProps } from './Gallery.types';
-import styles from './Gallery.module.scss';
-import ZoomIcon from '../../assets/Icons/zoom-button.svg';
-import GalleryIcon from '../../assets/Icons/gallery-icon.svg';
+import React, { FC, useEffect, useState } from 'react';
 
-import ArrowLeftIcon from '../../assets/Icons/ArrowLeft.svg';
-import ArrowRightIcon from '../../assets/Icons/ArrowRight.svg';
+import ArrowLeftIcon from '../../assets/icons/ArrowLeft.svg';
+import ArrowRightIcon from '../../assets/icons/ArrowRight.svg';
+import GalleryIcon from '../../assets/icons/gallery-icon.svg';
+import ZoomIcon from '../../assets/icons/zoom-button.svg';
+import styles from './Gallery.module.scss';
+import { GalleryProps } from './Gallery.types';
 
 const Gallery: FC<GalleryProps> = ({ images }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,9 +34,9 @@ const Gallery: FC<GalleryProps> = ({ images }) => {
     setUrl(images[ind - 1]);
   };
 
-  const openModal = (url: string) => {
+  const openModal = (urlProp: string) => {
     setShowModal(true);
-    setUrl(url);
+    setUrl(urlProp);
     setIsOpen(true);
   };
 
